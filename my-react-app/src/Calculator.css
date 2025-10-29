@@ -1,0 +1,25 @@
+.calculator {
+    max-width: 300px;
+    width: 100%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.calculator .display {
+    background: #f0f0f0;
+    padding: 20px;
+    font-size: 2em;
+    text-align: right;
+}
+
+.calculator .button-panel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.calculator button {
+    padding: 20px;
+    font-size: 1.5em;
+}
